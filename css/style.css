@@ -1,0 +1,101 @@
+a img
+{
+	border:0px;
+	border-style:none;
+}
+
+span
+{
+	background-repeat: no-repeat;
+}
+
+.file, .copieurfile, .coupeurfile
+{
+	background: url(../images/file.gif) no-repeat;
+	background-repeat: no-repeat;
+	padding-left:20px;
+	clear:right;
+	display:block;
+}
+
+.folder, .copieurfolder, .coupeurfolder
+{
+	background: url(../images/folder.gif) no-repeat;
+	background-repeat: no-repeat !important;
+	padding-left:20px;
+	clear:right;
+	display:block;
+}
+
+.bordered
+{
+	border:3px solid #6CAED1;
+}
+
+#work a
+{
+	color:#0000FF;
+	text-decoration:none;
+}
+
+#work a:hover
+{
+	color:#0099FF;
+	text-decoration:underline;
+}
+
+.inplaceeditor-form
+{
+	clear:none;
+	display:inline;
+}
+
+.mysubmit
+{
+	width:200px !important;
+}
+
+#message
+{
+	vertical-align:middle;
+	height:200px;
+}
+
+#login, #users
+{
+	background:transparent url(../images/content.jpg) no-repeat scroll left top;
+	padding:20px 0pt 0pt 20px;
+}
+
+#login input, #users input
+{
+	border:1px dashed black;
+}
+
+select
+{
+	width:200px;
+}
+
+#contextcopiercoller, #contextcopier
+{
+  position:absolute;
+  border:2px solid #388CBA;
+  background-color:lightblue;
+  font-family:Arial, Verdana;
+  font-size: 9pt;
+  line-height:18px;
+  cursor:default;
+  visibility:hidden;
+}
+
+.menuitems
+{
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.menuitems:hover
+{
+  background-color:white;
+}
